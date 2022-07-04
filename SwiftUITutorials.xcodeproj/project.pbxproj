@@ -16,6 +16,9 @@
 		570B1528286D8ED000595E38 /* SwiftUITutorialsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570B1527286D8ED000595E38 /* SwiftUITutorialsTests.swift */; };
 		570B1532286D8ED100595E38 /* SwiftUITutorialsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570B1531286D8ED100595E38 /* SwiftUITutorialsUITests.swift */; };
 		570B1534286D8ED100595E38 /* SwiftUITutorialsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570B1533286D8ED100595E38 /* SwiftUITutorialsUITestsLaunchTests.swift */; };
+		57E94FDD2872BE4D00A51424 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E94FDC2872BE4D00A51424 /* SignInView.swift */; };
+		57E94FE4287334C700A51424 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E94FE3287334C700A51424 /* SignUpView.swift */; };
+		57E94FE82873357D00A51424 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E94FE72873357D00A51424 /* ButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		570B152D286D8ED100595E38 /* SwiftUITutorialsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUITutorialsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		570B1531286D8ED100595E38 /* SwiftUITutorialsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITutorialsUITests.swift; sourceTree = "<group>"; };
 		570B1533286D8ED100595E38 /* SwiftUITutorialsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITutorialsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		57E94FDC2872BE4D00A51424 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		57E94FE3287334C700A51424 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		57E94FE72873357D00A51424 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,12 +104,15 @@
 		570B1510286D8ED000595E38 /* SwiftUITutorials */ = {
 			isa = PBXGroup;
 			children = (
+				57E94FE62873356400A51424 /* Style */,
+				57E94FE52873355A00A51424 /* View */,
 				570B1511286D8ED000595E38 /* SwiftUITutorialsApp.swift */,
 				570B1513286D8ED000595E38 /* ContentView.swift */,
 				570B1515286D8ED000595E38 /* Assets.xcassets */,
 				570B151A286D8ED000595E38 /* Persistence.swift */,
 				570B151C286D8ED000595E38 /* SwiftUITutorials.xcdatamodeld */,
 				570B1517286D8ED000595E38 /* Preview Content */,
+				57E94FDC2872BE4D00A51424 /* SignInView.swift */,
 			);
 			path = SwiftUITutorials;
 			sourceTree = "<group>";
@@ -131,6 +140,22 @@
 				570B1533286D8ED100595E38 /* SwiftUITutorialsUITestsLaunchTests.swift */,
 			);
 			path = SwiftUITutorialsUITests;
+			sourceTree = "<group>";
+		};
+		57E94FE52873355A00A51424 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				57E94FE3287334C700A51424 /* SignUpView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		57E94FE62873356400A51424 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				57E94FE72873357D00A51424 /* ButtonStyle.swift */,
+			);
+			path = Style;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +292,9 @@
 				570B1514286D8ED000595E38 /* ContentView.swift in Sources */,
 				570B1512286D8ED000595E38 /* SwiftUITutorialsApp.swift in Sources */,
 				570B151E286D8ED000595E38 /* SwiftUITutorials.xcdatamodeld in Sources */,
+				57E94FE4287334C700A51424 /* SignUpView.swift in Sources */,
+				57E94FDD2872BE4D00A51424 /* SignInView.swift in Sources */,
+				57E94FE82873357D00A51424 /* ButtonStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
